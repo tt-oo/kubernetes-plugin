@@ -1,4 +1,4 @@
-FROM jenkins/jenkins:lts-alpine
+FROM 28680e87-kr1-registry.container.cloud.toast.com/jenkins:lts-alpine
 
 ARG VERSION=1.15.5
 #RUN /usr/local/bin/install-plugins.sh kubernetes:${VERSION}
