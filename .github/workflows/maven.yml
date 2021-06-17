@@ -48,4 +48,4 @@ jobs:
     - name: Build image
       id: build-image
       run: |
-        docker build -t myimage:100 -f Dockerfile
+        docker build -t myimage:100 -f Dockerfile .
