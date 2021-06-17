@@ -45,3 +45,7 @@ jobs:
           path: target/
 
     - run: ls -al target/
+    - name: Build image
+      id: build-image
+      run: |
+        docker build -t myimage:100 -f Dockerfile
